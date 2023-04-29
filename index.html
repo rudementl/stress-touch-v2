@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/log-in.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <title>stress-touch</title>
+  </head>
+  <body>
+    <div class="login__wrapper">
+      <div class="login__content">
+        <div class="login__logo">
+          <img src="img/login-logo.svg" alt="login logo" />
+        </div>
+        <div class="login__title">
+          <a class="login__title_admin">Войти как Администратор</a>
+        </div>
+        <div class="login__subtitle">
+          <p>Введите свой логин или email и пароль</p>
+        </div>
+        <form class="form" action="">
+          <input
+            class="login__input"
+            type="text"
+            name="name"
+            required="required"
+            placeholder="Логин или email"
+          />
+          <input
+            class="login__input"
+            type="email"
+            name="email"
+            required="required"
+            placeholder="Пароль"
+          />
+          <a href="/stress-touch.html" class="btn-login" type="submit">Войти</a>
+        </form>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
